@@ -23,3 +23,13 @@ var height = parseInt(prompt("Enter your height by inches:"));
 
 var fat = calcBMI(weight, height);
 alert(fat)
+
+
+var fahrenheitConversion = function() {
+	var celcius = prompt("Enter the temperature in Celcius...");
+	var fahrenheit = celcius * 1.8 + 32;
+
+	return fahrenheit;
+}
+
+alert(fahrenheitConversion());
